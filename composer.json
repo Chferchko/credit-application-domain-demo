@@ -1,0 +1,14 @@
+{
+  "name": "eveginii-zabolotskih/credit-application-domain-demo",
+  "description": "Выделенные application и domain слои кредитного модуля.",
+  "type": "project",
+  "require": {
+    "php": ">=8.3",
+    "ramsey/uuid": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Extensions\\Classes\\Credit\\": "src/Credit/"
+    }
+  }
+}
